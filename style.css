@@ -1,0 +1,80 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: deeppink;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background: 0 0 10px red;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: palevioletred;
+    color: fuchsia;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+.site-header {
+    background-color: indianred;
+    color: hotpink;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.site-header nav ul li a {
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+.site-footer {
+    background-color: darkolivegreen;
+    color: green;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.login-status {
+    text-align: right;
+    margin-right: 20px;
+    color: darkslategray;
+}
+
+#login {
+    font-size: 14px;
+    color: seagreen;
+    text-align: center;
+    margin-top: 10px;
+}
