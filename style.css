@@ -1,6 +1,7 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: deeppink;
+    color: rgb(9, 98, 40);
+    background-color: rgb(243, 32, 144);
     margin: 0;
     padding: 0;
 }
@@ -9,7 +10,7 @@ body {
     width: 300px;
     margin: 100px auto;
     padding: 30px;
-    background: 0 0 10px red;
+    background: 0 0 10px rgb(78, 32, 32);
 }
 
 input, button {
@@ -20,19 +21,19 @@ input, button {
 }
 
 button {
-    background: palevioletred;
-    color: fuchsia;
+    background: rgb(82, 10, 34);
+    color: rgb(179, 97, 179);
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background: darkgreen;
+    background: rgb(13, 176, 13);
 }
 
 .site-header {
-    background-color: indianred;
-    color: hotpink;
+    background-color: rgb(89, 2, 47);
+    color: rgb(230, 6, 77);
     padding: 20px;
     text-align: center;
 }
@@ -48,7 +49,7 @@ button:hover {
 }
 
 .site-header nav ul li a {
-    color: darkmagenta;
+    color: rgb(55, 111, 41);
     text-decoration: none;
 }
 
@@ -57,8 +58,8 @@ button:hover {
 }
 
 .site-footer {
-    background-color: darkolivegreen;
-    color: green;
+    background-color: rgb(74, 112, 18);
+    color: rgb(197, 222, 197);
     text-align: center;
     padding: 15px;
     position: fixed;
@@ -69,12 +70,12 @@ button:hover {
 .login-status {
     text-align: right;
     margin-right: 20px;
-    color: darkslategray;
+    color: rgb(87, 169, 169);
 }
 
 #login {
     font-size: 14px;
-    color: seagreen;
+    color: rgb(24, 88, 52);
     text-align: center;
     margin-top: 10px;
 }
